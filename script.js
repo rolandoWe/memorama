@@ -96,6 +96,7 @@ function destapar(id){
             document.querySelector('.vida').classList.remove('vid')
             document.querySelector('.barra').style.background="rgb(173, 255, 47)";
             document.querySelector('#aciertos').innerHTML=`<strong>Felicidades</strong> 👏👏👏 lo haz logrado.`;
+            document.querySelector('#t-restante').innerHTML=`Tiempo invertido: <strong>${60-tiemer}</strong> segundos.`;
             document.querySelector('#aciertos').style.color="rgb(171, 3, 197)";
 
         }
